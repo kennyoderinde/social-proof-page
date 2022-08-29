@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    background-color: none;
+    font-family: 'League Spartan', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.container{
+    background: url(/images/bg-pattern-top-desktop.svg);
+    width: 80%;
+    height: 90%;
+    top: 10%;
+    bottom: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    box-shadow: 0 4px 5px 6px rgb(204, 198, 198);
+}
+
+.content-section{
+    width: 30%;
+    height: 35%;
+    margin-top: -4%;
+    margin-left: 5rem; 
+    /* border: 2px solid red; */
+    display: grid;
+    
+}
+
+.heading-part{
+    font-size: 45px;
+    font-weight: 800; 
+    line-height: 40px;
+    padding: 5px;
+    color: hsl(300, 43%, 22%);
+}
+
+.heading-paragraph{
+    color: hsl(300, 3%, 43%);
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+p{
+    font-size: 12px;
+    font-weight: 500;  
+}
+
+.stars-section{
+    width: 50%;
+    min-height: 50%;
+    /* border: 2px solid red; */
+    margin-left: -5%;
+    margin-top: 7rem;
+    margin-bottom: 10%;
+}
+
+.stars-box{
+    width: 70%;
+    height: 12%;
+    /* border: 2px solid red; */
+    margin: 4px 2px 4px 10px;
+    padding: 10px 15px 7px 12px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 15px 0px 15px 25px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    box-shadow: 0 1px 2px 2px rgb(231, 224, 224);
+}
+
+.second{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.third{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.star-icon{
+    width: 14px;
+    height: 14px;
+    /* padding: 5px, 35px 5px 0px; */
+}
+
+.lastone{
+    margin-right: 25px;
+}
+.testimonial-container{
+    width: 55rem;
+    height: 15rem;
+    margin-top: -7%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */  
+}
+
+.card{
+    width: 17rem;
+    height: 11rem;
+    /* border: 1px solid red; */
+    background-color: hsl(300, 43%, 22%);
+    /* display: flex;
+    gap: 20%; */
+    /* margin-left: 10%;
+    margin-top: 30px; */
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.heading{
+    
+
+}
+.heading div{
+    margin-left: 75px;
+    margin-top: -50px;
+    display:grid;  
+}
+
+.card-photo{
+    width: 35px;
+    height: 35px;
+    margin: 25px 0px 0px 25px;
+
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.card-name{
+    color: hsl(0, 0%, 100%);
+    margin: 20px 0px 0px 0px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+.verified{
+    color: hsl(333, 80%, 67%);
+    margin: 5px 0px 0px 0px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.testimonial_statement{
+    margin-top: 3px;
+    color:hsl(0, 0%, 100%);
+    line-height: 15px;
+    padding: 25px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.irene-card{
+    margin-top: 25px;
+}
+
+.anne-card{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 580px) {
+    .container{
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        /* align-items: center; */
+        justify-items: center;
+        
+    }
+
+    .content-section{
+        min-width: 50%;
+        height: 35%;
+        top: 50%;
+        margin-left: -3%; 
+        /* border: 2px solid red; */
+        padding: 15px;
+        text-align: center;
+        
+    }
+    
+    .heading-paragraph{
+        line-height: 22px;
+        font-size: 18px;
+    }
+
+    .stars-section{
+        margin-left: 12%;
+        margin-top: 10%;
+    }
+
+    .second{
+        margin-left: 2%;
+    }
+    
+    .third{
+        margin-left: 2%;
+    }
+
+    .star-icon{
+        /* text-align: center;{ */
+        
+    }
+
+    .testimonial-container{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        margin-left: 67%;
+    }
+  
+  }
